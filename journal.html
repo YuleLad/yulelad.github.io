@@ -6,18 +6,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <style>
+         body{
+            margin: 0;
+        }
+        header{
+            background-image:url('images/IMG_5323.PNG');
+            background-size: cover;
+            height:100vh;
+            background-blend-mode:difference;
+        }
+        nav ul{
+           display: flex;
+            background: rbha(255,255,255,0.5);
+            list-style:none;            /* rids of bullet*/
+            padding:0;
+            margin:auto;
+
+        }
+        /* when mouse over link, changes color*/
+        nav li:hover{
+            background: rgba(250, 42, 94, 0.716);
+        }
+        li a{
+            font-size: 40px;
+            color: white;
+
+
+        }
+        main{
+            background: rgba(130, 117, 255, 0.9);
+            height:800px;
+        }
+        li a:hover{
+            color:aqua;
+        }
+        .flex div{
+            flex:1;
+        }
+        .flex{
+            display: flex; /*gets rid of gap and seperates the divs and ps */
+            width: 70%;
+            margin: auto; /* centers text*/
+            color:antiquewhite;
+        }
+        
+        *{
+            box-sizing: border-box;
+        }
         img{
             width: 100%;
         }
+        body{
+            font-size: 30px;
+        }
+        main.parent {
+            display: flex;
+           /* border: 4px solid red;*/
+        }
+        article.child {
+            flex: 20%;
+            /*border: 4px solid pink;*/
+        }
+        article.left{flex: 2; }
+        article.right{ flex:1;}
+
+        h1{text-align: center;}
+        h2{text-align: center;}
+        h3{text-align: center;}
+        p{ text-align: center ;}
+
     </style>
+    <!--IMG_5323.PNG-->
 </head>
 <body>
+    <!--Day 1-->
     <h1>Blog</h1>
-    <p>Date: 1/11/2023</p>
-    <p>1st post (0-0)</p>
+    <h2>Date: 1/11/2023</h2>
+    <h3>1st post (0-0)</h3>
     <section></section>
     <p> People reccomend</p>
     <img src="young-happy-man-with-thumbs-up-sign-casuals-isolated_186202-6699.jpg.webp"alt="yay">
-    <p><a href="index.html">backhome</a></p>
+    <div>-----------</div>
+    <section>
+        <!--Day 2-->
+    <h1>Date: 1/16/2023</h1>
+    <h2>Website Inspo</h2>
+
+    <p> <a href="https://www.plasticbean.com">Plastic Bean</a></p>
+    <div></div>
+    <p>I am a fan of how sleek the website is and the animation of everything</p>
+
+    <main class="parent">
+ <article class="child">
+    <img scr="img_2297.png" alt="image 1">
+</article>
+<article class="child">
+    <img scr="img_2298.png" alt="image 2">
+</article>
+<article class="child">
+    <img scr="img_2299.png" alt="image 3">
+</article>
+    </main>
+</section>
+    <!--Day 6-->
+    <h1> Date: 1/23/2023</h1>
+            <h2>Figma Mock up sketch</h2>
+</header>
+<main>
+    <section class="flex">
+        <div class="left">
+            <p>I went for a more colordul path, I hope I can make thius feasble with code</p>
+            <p>I wanted to do something with the Swedish franschise "Moonin Valley", either a short character description of my top 4 favorite characters, or the different releases of the franchise through out the decade sinse its comic book release </p>
+        </div>
+        <div class="right">
+            
+            <li><a href="https://www.figma.com/proto/nmjh5EwG0mXPQ8TmwHnR5t/Moomin-Mock-Website?page-id=3%3A23&node-id=3%3A24&viewport=108%2C398%2C0.27&scaling=scale-down&starting-point-node-id=3%3A24">figma mock up</a></li>
+        </div>
+    
+    </section>
+    <img src="Screenshot 2023-01-30 at 7.40.12 AM.PNG"alt="mock up screenshot but for some reason it isn't coming up :/">
+</main>
+<!-- Footer -->
+<footer>
+    <div class="footer">
+        <div class="containter">
+            <p>Julia Melkomukov</p>
+            <p><a href="index.html">backhome</a></p>
+        </div>
+
+    </div>
+   
+</footer>
+
 </body>
 </html>

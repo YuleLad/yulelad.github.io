@@ -1,0 +1,30 @@
+body{
+    background: rgb(255, 251, 188);
+
+}
+/*to make svg visible when it goes out of bounds*/
+ svg{
+overflow:visible;
+
+ }
+ /*animateion! */
+ #i{transition: all .5s ease;} /*slows down the animtion*/
+ #i:hover{
+    transform: rotate(15deg); /*makes it roatate*/
+ }
+
+ #w{}
+
+ #w:hover{
+animation-name:wiggles;
+animation-duration: .5s;
+animation-timing-function: ease-in-out;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+ }
+ @keyframes wiggles{
+    0%{transform:translate(5px,0px)}
+    50%{transform:translate(-5px,-0px)}
+    100%{transform:translate(5px,0px)}
+    
+ }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Test</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        header{
+            background-image:url('images/jason-leung-ztQyd2PGrNI-unsplash.jpg');
+            background-size: cover;
+            height:600px;
+            background-blend-mode:difference;
+        }
+        nav ul{
+           display: flex;
+            background: rbha(255,255,255,0.5);
+            list-style:none;            /* rids of bullet*/
+            padding:0;
+            margin:auto;
+
+        }
+        /* when mouse over link, changes color*/
+        nav li:hover{
+            background: rgba(250, 42, 94, 0.716);
+        }
+        li a{
+            font-size: 90px;
+            color: white;
+
+
+        }
+        main{
+            background: rgba(255, 47, 47, 0.9);
+            height:800px;
+        }
+        li a:hover{
+            color:aqua;
+        }
+        .flex div{
+            flex:1;
+        }
+        .flex{
+            display: flex; /*gets rid of gap and seperates the divs and ps */
+            width: 70%;
+            margin: auto; /* centers text*/
+            color:antiquewhite;
+            
+
+        }
+    </style>
+  
+        <!--jason-leung-ztQyd2PGrNI-unsplash.jpg-->
+   
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+            <li><a href="#">link</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="flex">
+            <div class="left">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, distinctio?</p>
+            </div>
+            <div class="right">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur neque repudiandae omnis rerum quaerat ad velit delectus necessitatibus provident sit!</p>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
