@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+ html, body{
+    height: 100%;
+}
+
+nav ul{
+   display: flex;
+    background: rbha(255,255,255,0.5);
+    list-style:circle;            /* rids of bullet*/
+    padding:0;
+    margin:auto;
+
+}
+/* when mouse over link, changes color*/
+nav li:hover{
+    background: rgba(53, 105, 247, 0.716);
+}
+li a{
+    font-size: 20px;
+    color: white;
+text-align: center;
+
+}
+
+html{
+    
+    background: url(svg/Moominbackfound-01.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+/*
+.bg {
+   
+    width: 140%;
+    height: 140%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  
+    background: url(svg/Moominbackfound-01.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+*/
+    transform: scale(1.1);
+  }
+}
+
+/*
+main{
+    background-image:url('svg/Moominbackfound-01.png');
+    background-size: cover;
+    height:600px;
+    background-blend-mode:difference;
+    background: rgba(63, 133, 255, 0.9);
+    height:800px;
+}
+*/
+li a:hover{
+    color:aqua;
+}
+.flex div{
+    flex:1;
+}
+.flex{
+    display: flex; /*gets rid of gap and seperates the divs and ps */
+    width: 70%;
+    margin: auto; /* centers text*/
+    color:antiquewhite;
+    
+
+}
+
+.wrap {
+    top: 10%;
+    height: 100%;  
+    position: relative;
+    overflow: hidden;
+  /*
+    img, .bg {
+      
+      
+    } 
+   
+    
+    .bg {
+        width: 100%;
+        height: 100%;
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        
+        background: url('svg/') no-repeat center center;
+        background-size: cover;
+    
+        transform: scale(1.1);
+      }
+      */
+    }
+    
+h1{
+    font-family: 'Dokdo', cursive;
+    font-size: 120px;
+    text-align: center;
+    color: rgb(255, 196, 0);
+}
+h2{
+    font-family:'Indie Flower', cursive;
+    text-align: center;
+}
