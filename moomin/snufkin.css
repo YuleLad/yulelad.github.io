@@ -26,6 +26,10 @@ img{
     margin: 0;
     float: right;
 }
+#quote{
+    position:absolute;
+    z-index: 3;
+}
 h1{
     font-family: 'Dokdo', cursive ;
     font-size: 16vmin;

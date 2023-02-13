@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+/*
+#top-image {
+    background:url(svg/littlemy-04.png) -25px -50px;
+    position:fixed ;
+    top:0;
+    width:100%;
+    z-index:0;
+      height:100%;
+      background-size: calc(100% + 50px);
+    }
 
+*/
 html{
     background: url(svg/littlemy-04.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -9,9 +20,14 @@ html{
     -o-background-size: cover;
     background-size: cover;
 }
+
 img{
     margin: 0;
     float: right;
+}
+#quote{
+    position:absolute;
+    z-index: 3;
 }
 h1{
     font-family: 'Dokdo', cursive ;

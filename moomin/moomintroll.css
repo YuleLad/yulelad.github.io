@@ -13,6 +13,24 @@ img{
     margin: 0;
     float: right;
 }
+#quote{
+    position:absolute;
+    
+    z-index: .5;
+}
+.quote{
+    transition: 1s ease-out;
+}
+.quote:hover{
+transform: scale(1.5);
+}
+#moomintroll{
+    transition: all .5s ease;
+    animation-iteration-count: infinite
+} /*slows down the animtion*/
+#moomintroll:hover{
+   transform: rotate(-10deg); /*makes it roatate*/
+}
 h1{
     font-family: 'Dokdo', cursive ;
     font-size: 16vmin;
