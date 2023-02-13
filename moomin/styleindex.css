@@ -9,6 +9,19 @@
  html, body{
     height: 100%;
 }
+/*
+section{
+    
+    background: url(svg/Moominbackfound-01.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow:hidden;
+    background-size: 110%,110%;
+
+}
+*/
 
 nav ul{
    display: flex;
@@ -20,7 +33,7 @@ nav ul{
 }
 /* when mouse over link, changes color*/
 nav li:hover{
-    background: rgba(53, 105, 247, 0.716);
+    background: none;
 }
 li a{
     font-size: 20px;
@@ -28,6 +41,7 @@ li a{
 text-align: center;
 
 }
+
 
 html{
     
@@ -39,7 +53,7 @@ html{
     
 }
 
-
+/*
 .bg {
    
     width: 140%;
@@ -60,6 +74,7 @@ html{
     transform: scale(1.1);
   
 }
+*/
 
 li a:hover{
     color:aqua;
@@ -71,8 +86,10 @@ li a:hover{
     display: flex; /*gets rid of gap and seperates the divs and ps */
     width: 70%;
     margin: auto; /* centers text*/
-    color:antiquewhite;
-    
+    color:rgba(116, 82, 37, 0);
+    .left{
+
+    }
 
 }
 
@@ -117,5 +134,5 @@ h2{
     font-family:'Indie Flower', cursive;
     font-size: 3vmin;
     text-align: center;
-    margin:0;
+    margin:auto;
 }

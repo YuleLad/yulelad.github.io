@@ -3,11 +3,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 html{
-    background: url(svg/Moomintrollbackground-04.png) no-repeat center center fixed; 
+    background: url(svg/Snufkinbackground\ \(1\)-04.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+.flex div{
+    flex:1;
+}
+.flex{
+    font-size: 13pt;
+    font-family: Cochin,serif;
+    display: flex; /*gets rid of gap and seperates the divs and ps */
+    width: 80%;
+    margin: auto; /* centers text*/
+    color:rgb(0, 0, 0);
+    
+
 }
 img{
     margin: 0;
@@ -18,7 +31,7 @@ h1{
     font-size: 16vmin;
     text-align: center;
     margin: 0;
-    color: rgb(33, 49, 111);
+    color: rgb(0, 69, 15);
 }
 
 h2{
@@ -36,6 +49,7 @@ nav ul{
     font-family:'Dokdo', cursive ;
     font-size: 4vmin;
     text-align: center;
+    color: aqua;
     
  }
  

@@ -5,17 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liitle My</title>
+    <link rel="stylesheet" href="little-my.css"/> 
+    <style>
+        main{
+        
+        height:800px;
+    }
+   
+  
+    .flex div{
+        flex:1;
+    }
+    .flex{
+        font-size: 13pt;
+        font-family: Cochin,serif;
+        display: flex; /*gets rid of gap and seperates the divs and ps */
+        width: 80%;
+        margin: auto; /* centers text*/
+        color:rgb(0, 0, 0);
+        
+
+    }
+    </style>
 </head>
 <body>
-    <h1>Little My</h1>
-    <h2>Small but fierce</h2>
-    <p>Little My is fiery and independent, a tiny character with an enormous personality! Known for her sharp tongue, quick temper and mischievous nature, she seems to thrive in dangerous situations and sometimes takes pleasure in the small misfortunes that befall others.</p>
-        
-    <p> But still, she is loyal, protective, and an honest friend, and her bravery makes her a good person to have around in a crisis. Little My lives with the Moomins in the Moominhouse.</p>
-  
-    <p><a href="https://www.moomin.com/en/characters/little-my/">Check the Official Moomin page!</a></p>
+    <header>
+        <nav>
+            <main>
+                <section class="title">
+                <h1>Little My</h1>
+            </section>
+            <section class="subtitle">
+                <h2>Small but fierce</h2>
+            </section>
+               
+                <section class="flex">
+                    <div class="left">
+                        <img src="svg/little_my.svg" id="snorkmaiden" style="width:30vmin;height:50vmin">
+                     </div>
+                    <div class="top">
+                        <p>Little My is fiery and independent – a tiny character with an enormous personality! Known for her sharp tongue, quick temper and mischievous nature, she seems to thrive in dangerous situations and sometimes takes pleasure in the small misfortunes that befall others. But still, she is loyal, protective, and an honest friend, and her bravery makes her a good person to have around in a crisis. Little My lives with the Moomins in the Moominhouse.</p>
 
-    <a href="index.html">Back Home</a>
+                   
+        
+                </section>
+                <nav>
+                    <ul>
+                        <a href="https://www.moomin.com/en/characters/little-my/">Check the Official Moomin page!</a></p>
+                        <a href="index.html">Back Home</a> 
+                </ul>
+                </nav>
+            </main>
+        
+        </nav>
+    </header>
     
 </body>
 </html>

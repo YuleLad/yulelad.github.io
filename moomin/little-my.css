@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 html{
-    background: url(svg/Moomintrollbackground-04.png) no-repeat center center fixed; 
+    background: url(svg/littlemy-04.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -18,7 +18,7 @@ h1{
     font-size: 16vmin;
     text-align: center;
     margin: 0;
-    color: rgb(33, 49, 111);
+    color: rgb(111, 33, 37);
 }
 
 h2{

@@ -5,14 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snufkin</title>
+    <link rel="stylesheet" href="snufkin.css"/> 
+    <style>
+          main{
+          
+          height:800px;
+      }
+     
+    
+      .flex div{
+          flex:1;
+      }
+      .flex{
+          font-size: 13pt;
+          font-family: Cochin,serif;
+          display: flex; /*gets rid of gap and seperates the divs and ps */
+          width: 80%;
+          margin: auto; /* centers text*/
+          color:rgb(0, 0, 0);
+          
+
+      }
+           
+    </style>
 </head>
 <body>
-    <h1>Snufkin</h1>
-    <h2>The wise adventurer</h2>
-    <p>Snufkin is a philosopher and a wanderer who enjoys the simple things in life – fishing, playing his harmonica and walking alone at night. A free spirit with no interest in owning things, Snufkin enjoys challenging authority figures such as park keepers. He greatly values his independence, but returns to Moominvalley every spring to spend time with his good friend Moomintroll.</p>
+    <header>
+        <nav>
+            <main>
+                <section class="title">
+                <h1>Snufkin</h1>
+            </section>
+            <section class="subtitle">
+                <h2>The wise adventurer</h2>
+            </section>
+               
+                <section class="flex">
+                    <div class="left">
+                        <img src="svg/snufkin.svg" id="snufkin" style="width:30vmin;height:50vmin">
+                     </div>
+                    <div class="top">
+                        <p>Snufkin is a philosopher and a wanderer who enjoys the simple things in life – fishing, playing his harmonica and walking alone at night. A free spirit with no interest in owning things, Snufkin enjoys challenging authority figures such as park keepers. He greatly values his independence, but returns to Moominvalley every spring to spend time with his good friend Moomintroll.</p>
+                  
+            
+                        <p>Snufkin is widely admired for his quiet confidence and self-belief, especially by the smaller and more timid residents of Moominvalley.</p>
+
+                   
         
-        <p>Snufkin is widely admired for his quiet confidence and self-belief, especially by the smaller and more timid residents of Moominvalley.</p>
-    <p><a href="https://www.moomin.com/en/characters/snufkin/">Check the Official Moomin page!</a></p>
-    <a href="index.html">Back Home</a>
+                </section>
+                <nav>
+                    <ul>
+                        <a href="https://www.moomin.com/en/characters/moomintroll/">Check the Official Moomin page!</a></p>
+                        <a href="index.html">Back Home</a> 
+                </ul>
+                </nav>
+            </main>
+        
+        </nav>
+    </header>
+    
 </body>
 </html>

@@ -5,12 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snorkmaiden</title>
+    <link rel="stylesheet" href="snorkmaiden.css"/> 
+    <style>
+          main{
+          
+          height:800px;
+      }
+     
+    
+      .flex div{
+          flex:1;
+      }
+      .flex{
+          font-size: 13pt;
+          font-family: Cochin,serif;
+          display: flex; /*gets rid of gap and seperates the divs and ps */
+          width: 80%;
+          margin: auto; /* centers text*/
+          color:rgb(0, 0, 0);
+          
+
+      }
+      </style>
 </head>
 <body>
-    <h1>Snorkmaiden</h1>
-    <h2>An excitable dreamer</h2>
-    <p>Snorkmaiden is a creative and excitable dreamer whose imagination comes in handy on adventures. She is very resourceful and quick-thinking, which often leads to her saving the day in style with a unique and ingenious solution. For example, she once rescued Moomintroll from a deep-sea octopus with nothing other than a ruby looking-glass. She enjoys acting out stories about beautiful maidens and brave heroes – with herself and Moomintroll in the leading roles, of course.</p>
-    <p><a href="https://www.moomin.com/en/characters/snorkmaiden/">Check the Official Moomin page!</a></p>
-    <a href="index.html">Back Home</a>
+    <header>
+        <nav>
+            <main>
+                <section class="title">
+                <h1>Snorkmaiden</h1>
+            </section>
+            <section class="subtitle">
+                <h2>An excitable dreamer</h2>
+            </section>
+               
+                <section class="flex">
+                    <div class="left">
+                        <img src="svg/snorkmaiden-1.svg" id="snorkmaiden" style="width:30vmin;height:50vmin">
+                     </div>
+                    <div class="top">
+                        <p>Snorkmaiden is a creative and excitable dreamer whose imagination comes in handy on adventures. She is very resourceful and quick-thinking, which often leads to her saving the day in style with a unique and ingenious solution. For example, she once rescued Moomintroll from a deep-sea octopus with nothing other than a ruby looking-glass. She enjoys acting out stories about beautiful maidens and brave heroes – with herself and Moomintroll in the leading roles, of course.</p>
+
+                   
+        
+                </section>
+                <nav>
+                    <ul>
+                        <a href="https://www.moomin.com/en/characters/snorkmaiden/">Check the Official Moomin page!</a></p>
+                        <a href="index.html">Back Home</a> 
+                </ul>
+                </nav>
+            </main>
+        
+        </nav>
+    </header>
 </body>
 </html>

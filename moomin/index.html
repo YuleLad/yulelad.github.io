@@ -11,18 +11,40 @@
 
     <link rel="stylesheet" href="styleindex.css"/> 
     <style>
+        img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+        }
+  img:hover {
+  animation: shake 1s ease-in-out;
+ 
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(0px, 10px) rotate(0deg); }
   
-     
+ 
+ 
+  50% { transform: translate(-0px, -10px) rotate(0deg); }
+  
+  100% { transform: translate(0px, 10px) rotate(0deg); }
+}
     </style>
 </head>
 <body>
     
+  
+    
     <div class="wrap">
         
         <div class="bg"></div>
+        
         <h1>Moomin Valley</h1>
-    <!-- Effect inspired by https://codepen.io/supah/pen/RrzREx -->
+     <!--Effect inspired by https://codepen.io/supah/pen/RrzREx -->
     <h2>Four character descriptions of the four friends in the franchise "Moomin Valley" by Tove Jansson.</h2>
+    
+
 <!--
    <img src="svg/FrontPinkCloud_FrontPnkCloud.svg" id="top">
    <img src="svg/moomintroll-1.svg" id="middle">
@@ -31,21 +53,15 @@
 
 </header>
 <main>
+    <section>
+    
+    
 <section class="flex">
+    
     <div class="left">
         <nav>
-            <li><a href="moomintroll.html" ><img src="svg/Button_MoomintrollPinkCloud.svg" style="width:150px;height:150px;"></a></li>
-            <li><a href="snufkin.html" ><img src="svg/Button_SnufkinPinkCloud.svg" style="width:150px;height:150px;"></a></li>
-            <!--
-            <img width=200 src="svg/Button_MoomintrollPinkCloud.svg" usemap="#image-map">
-
-<map name="image-map">
-    <area target="_blank" alt="arrow" title="arrow" href="moomintroll.htm" coords="363,137,417,111,411,148,418,159,364,190,232,262,225,248,356,175,406,159,451,179,394,208,364,190,369,177,355,175,355,183,359,157" shape="poly">
-    <area target="_blank" alt="arrow" title="arrow" href="moomintroll.htm" coords="408,155,8" shape="circle">
-  <area target="_blank" alt="bullseye" title="" href="moomintroll.htm" coords="227,253,38" shape="circle">
-</map>
--->
-
+            <li><a href="moomintroll.html" ><img src="svg/Button_MoomintrollPinkCloud.svg" style="width:25vmin;height:25vmin"></a></li>
+            <li><a href="snufkin.html" ><img src="svg/Button_SnufkinPinkCloud.svg" style="width:25vmin;height:25vmin;"></a></li>
             <!--
             <li><a href="moomintroll.html" id="button">Moomintroll</a></li>
             <li><a href="snufkin.html" id="button">Snufkin</a></li>
@@ -57,11 +73,12 @@
         <nav>
         
             
-            <li><a href="snorkmaiden.html"><img src="svg/Button_SnorkmaidenPinkCloud.svg" style="width:150px;height:150px;"></a></li>
-            <li><a href="little-my.html"><img src="svg/Button_LittleMyPinkCloud.svg" style="width:150px;height:150px;"></a></li>
+            <li><a href="snorkmaiden.html"><img src="svg/Button_SnorkmaidenPinkCloud.svg" style="width:25vmin;height:25vmin;"></a></li>
+            <li><a href="little-my.html"><img src="svg/Button_LittleMyPinkCloud.svg" style="width:25vmin;height:25vmin;"></a></li>
      
         </nav>
     </div>
+</section>
 
 </section>
 </main>
