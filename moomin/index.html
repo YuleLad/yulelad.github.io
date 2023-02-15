@@ -33,12 +33,10 @@
     </style>
 </head>
 <body>
-    
   
     
-    <div class="wrap">
         
-        <div class="bg"></div>
+        <!-- <div class="bg"></div> -->
         
         <h1>Moomin Valley</h1>
      <!--Effect inspired by https://codepen.io/supah/pen/RrzREx -->
@@ -51,11 +49,7 @@
    <img src="svg/BackPinkCloudsvg_BackPnkCloud.svg" id="bottom">
 -->
 
-</header>
-<main>
-    <section>
-    
-    
+
 <section class="flex">
     
     <div class="left">
@@ -79,17 +73,20 @@
         </nav>
     </div>
 </section>
+    <div class="background-image"></div>
 
-</section>
-</main>
- <nav>
+    <script>
+    const body = document.querySelector('body');
+    const bg = document.querySelector('.background-image');
+const windowWidth = window.innerWidth / 5;
+const windowHeight = window.innerHeight / 5 ;
 
-    
-   
-    
-</nav>
-</div>
-
-    
+body.addEventListener('mousemove', (e) => {
+  const mouseX = e.clientX / windowWidth;
+  const mouseY = e.clientY / windowHeight;
+  
+  bg.style.transform = `translate3d(-${mouseX}%, -${mouseY}%, 0)`;
+});
+    </script>
 </body>
 </html>

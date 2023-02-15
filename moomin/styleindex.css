@@ -43,7 +43,7 @@ text-align: center;
 }
 
 
-html{
+/* html{
     
     background: url(svg/Moominbackfound-01.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -51,7 +51,19 @@ html{
     -o-background-size: cover;
     background-size: cover;
     
+} */
+
+
+.background-image {
+  width: 110%;
+  height: 110%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: url('svg/Moominbackfound-01.png') no-repeat left center / cover;
+  z-index:-1;
 }
+
 
 /*
 .bg {
@@ -87,9 +99,7 @@ li a:hover{
     width: 70%;
     margin: auto; /* centers text*/
     color:rgba(116, 82, 37, 0);
-    .left{
 
-    }
 
 }
 
