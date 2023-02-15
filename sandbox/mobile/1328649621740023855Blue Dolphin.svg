@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="756"
+   height="665"
+   id="svg4429"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="delphin.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   inkscape:export-filename="C:\Users\Gregor\Desktop\delphin.png"
+   inkscape:export-xdpi="11.427757"
+   inkscape:export-ydpi="11.427757">
+  <defs
+     id="defs4431">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 372.04724 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1052.3622 : 372.04724 : 1"
+       inkscape:persp3d-origin="526.18109 : 248.03149 : 1"
+       id="perspective4438" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:document-units="mm"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.43415836"
+     inkscape:cx="235.47482"
+     inkscape:cy="398.18666"
+     inkscape:current-layer="layer1"
+     id="namedview4433"
+     showgrid="false"
+     inkscape:window-width="1272"
+     inkscape:window-height="758"
+     inkscape:window-x="0"
+     inkscape:window-y="14" />
+  <metadata
+     id="metadata4435">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>delfin</dc:title>
+        <dc:date>2009</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>SKV MeriDian e.V.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>GNU/GPL</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>delfin</rdf:li>
+            <rdf:li>dolphin</rdf:li>
+            <rdf:li>delphin</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-174.93103,-46.318828)">
+    <g
+       transform="matrix(1.1882592,0,0,1.1882592,130.9531,-160.68498)"
+       id="delfin"
+       style="display:inline">
+      <path
+         d="M 195.01694,181.18432 C 39.189056,182.91998 66.881614,260.43299 67.508394,262.08167 C 66.036939,263.26913 48.294903,274.47175 48.08075,278.36012 C 48.432175,280.36308 49.247875,281.40218 49.648942,281.82714 C 48.247651,281.95347 43.76989,282.61014 45.022538,290.01541 C 46.389521,298.09659 51.158605,299.72915 53.243335,301.04594 C 65.879139,308.36624 125.43092,302.0088 153.06837,324.09873 C 130.70179,372.33331 144.97644,419.0493 193.56039,442.56486 C 195.00848,434.67447 188.31014,391.73032 216.36422,367.40202 C 205.41523,351.0352 207.1351,348.29765 207.20147,348.31856 C 216.93382,356.82616 290.79396,395.35071 334.37753,414.81817 C 357.26086,425.09116 406.45057,455.01121 421.30363,461.35514 C 436.16179,467.67931 444.75786,470.95295 456.95946,484.04657 C 471.95902,500.16564 518.86326,571.46937 534.62739,622.33904 C 494.96885,625.46247 442.91648,679.85787 446.70768,719.17632 C 446.89634,719.38383 470.26763,702.62914 486.30309,701.94411 C 503.40985,702.63582 520.05381,706.14746 538.39964,704.28479 C 556.74543,702.42212 581.07918,700.36633 591.34868,701.93828 C 631.25311,705.79624 643.80092,718.6696 663.27628,730.52995 C 661.12526,699.3768 661.9229,687.83985 634.84503,659.73706 C 602.38895,625.73809 573.56482,630.57908 570.7497,606.82244 C 569.71574,599.27006 566.7882,418.88867 465.65595,304.14356 C 423.11873,257.04219 458.86436,247.16064 459.12439,247.16064 C 459.38953,247.16064 451.30584,229.22146 438.96144,224.57714 C 427.14222,219.75002 399.49226,223.9331 376.30251,227.65844 C 366.737,222.6238 297.3478,180.94095 195.01694,181.18432 z"
+         id="body"
+         style="fill:#6fd7ff;fill-opacity:1;stroke:#6fd7ff;stroke-width:0.50192016;stroke-opacity:1;display:inline" />
+      <path
+         d="M 174.1108,243.17459 C 178.65777,245.23436 187.32247,242.62485 191.3557,239.52699 C 195.01858,236.57541 190.549,234.68861 187.78389,233.47868 C 184.10812,231.87027 174.00048,231.22251 174.1108,243.17459 z"
+         id="auge"
+         style="fill:#43a4d7;fill-opacity:1;stroke:#43a4d7;stroke-width:0.50192016;stroke-opacity:1;display:inline" />
+      <path
+         d="M 100.91264,197.98588 C 71.440763,212.14075 59.610149,235.48532 67.021346,261.84013 C 83.735464,250.86534 110.19277,249.45986 135.29589,251.42448 C 115.04207,245.27867 90.480003,247.03593 74.516848,248.63211 C 68.610453,234.23698 79.618455,209.49603 100.91264,197.98588 z"
+         id="schatten#kopf"
+         style="fill:#43a4d7;fill-opacity:1;stroke:#43a4d7;stroke-width:0.50192016;stroke-opacity:1;display:inline"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         d="M 181.03874,252.11602 C 148.47076,252.23432 123.86295,266.24996 105.35035,276.33956 C 92.563561,283.30851 82.753633,288.26439 67.792828,287.26263 C 52.580016,285.79856 50.726119,284.36137 47.28125,282.46875 C 47.177718,282.41188 43.830716,284.01791 44.851677,289.51891 C 45.720151,294.1983 46.464809,297.47173 53.404638,301.30736 C 68.612852,308.74906 123.2081,301.66167 153.0105,324.05864 C 134.56103,362.26447 136.51233,414.87464 193.75944,442.73106 C 195.21772,434.84562 188.43861,391.73361 216.49779,367.40036 C 211.77878,360.06861 207.66532,353.12155 207.12845,348.58479 C 232.14017,365.95834 290.15099,395.04214 333.82954,414.8992 C 349.65383,422.09321 407.74843,456.38455 431.54651,466.06125 C 458.77507,477.13284 472.75786,507.14439 479.00038,515.88367 C 510.92404,560.5755 532.21081,611.6858 534.54532,622.29926 C 477.32764,632.56266 440.74762,696.36245 446.4057,719.48764 C 453.09257,715.8131 472.49157,701.46742 489.60857,702.17395 C 506.72548,702.87551 516.64917,705.97503 535.0461,704.8735 C 553.98558,703.73949 566.81196,700.30334 592.07367,702.38474 C 631.41241,705.62599 640.47575,717.80617 663.55954,730.78989 C 664.30419,686.40322 642.50451,659.87756 602.18945,634.8557 C 592.35268,628.75043 560.83737,622.50471 553.96767,610.43756 C 549.06986,601.83419 539.39763,524.70145 485.29104,442.89538 C 412.17313,332.34528 339.84081,306.8786 281.79178,279.12496 C 251.2617,264.12473 207.7042,252.01916 181.03874,252.11602 z"
+         id="schatten"
+         style="fill:#43a4d7;fill-opacity:1;stroke:#43a4d7;stroke-width:0.50192016;stroke-opacity:1;display:inline" />
+      <path
+         d="M 250.79144,309.86779 C 279.62947,337.48357 342.86886,406.55327 390.46894,398.99574 C 390.46893,398.99574 353.55178,379.22915 342.90028,346.58437 C 340.06014,337.87992 331.11765,326.78104 297.84375,312.6875 C 292.29454,310.33707 250.79735,296.52463 250.79144,309.86779 z"
+         id="flosse"
+         style="fill:#6fd7ff;fill-opacity:1;stroke:#6fd7ff;stroke-width:0.50192016;stroke-opacity:1;display:inline" />
+    </g>
+  </g>
+</svg>

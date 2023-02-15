@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../sandbox"
+		},
+		{
+			"path": "../svg-words"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "yulelad.github.io"
+	}
+}
