@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+
+    <link rel="stylesheet" href="style.css"/>
+    <!-- this link needed for animations to work!!!!!!!!-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body>
+    <header>
+        <h1>cat breeds not accurate to images</h1>
+    </header>
+
+    <main class="cat">
+        <!-- makes image bounce when page opens-->
+        <div class="kitten feature">
+            <img class="animate__animated animate__bounce" src="https://placekitten.com/400/150">
+            <p>the prettiest cat</p>
+        </div>
+        <!--make image flicker-->
+        <div class="kitten">
+            <img class="animate__animated animate__flash" src="https://placekitten.com/400/301">
+            <p>Tabby</p>
+            <!--image stretches a bit before returning ba=ck to normal(USE THIS FOR ABOUT PAGE)-->
+        </div>
+        <div class="kitten">
+            <img class="animate__animated animate__rubberBand" src="https://placekitten.com/401/300">
+            <p>Scottish fold</p>
+        </div>
+        <!--makes image slide in-->
+        <div class="kitten">
+            <img class="animate__animated animate__fadeInLeftBig" src="https://placekitten.com/400/300">
+            <p>Persian</p>
+        </div>
+        <div class="kitten">
+            <img class="animate__animated animate__" src="https://placekitten.com/400/301">
+            <p>Tabby</p>
+        </div><div class="kitten">
+            <img class="animate__animated animate" src="https://placekitten.com/401/300">
+            <p>Scottish fold</p>
+        </div>
+    </main>
+
+    <main class="cat-gallery">
+    <div class="kitten">
+        <img  class="animate__animated animate__fadeInRightBig"src="https://placekitten.com/401/300">
+        <p>Scottish fold</p>
+    </div>
+    <div class="kitten">
+        <img  class="animate__animated animate__fadeInRightBig__delay-1s" src="https://placekitten.com/401/300">
+        <p>Scottish fold</p>
+    </div>
+    <div class="kitten">
+        <img  class="animate__animated animate" src="https://placekitten.com/401/300">
+        <p>Scottish fold</p>
+    </div>
+    <div class="kitten">
+        <img class="animate__animated animate" src="https://placekitten.com/401/300">
+        <p>Scottish fold</p>
+    </div>
+    <div class="kitten">
+        <img class="animate__animated animate" src="https://placekitten.com/401/300">
+        <p>Scottish fold</p>
+    </div>
+</main>
+   
+   
+
+
+
+
+    
+    
+</body>
+</html>
