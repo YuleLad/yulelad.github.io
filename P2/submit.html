@@ -6,8 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Give us Your Dumb Ideas</title>
     <link rel="stylesheet" href="style.css"/> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        .submit{
+            width:70%;
+            margin:auto;
+            display: grid;
+
+            grid-template-columns:1fr 1fr;
+
+            gap: 20px;
+        }
+        .logo{
+            padding-left: 1vmin;
+        }
+        #logo{
+
+        }
+        #email{
+            font-size: 15px;
+    
+        }
+
+        #message{
+            font-size: 15px;
+         
+        }
+
+        button{
+            font-size: 20px;
+        }
+
+label{ padding:0; color:white;}
+
+    </style>
 </head>
 <body>
+    <!--
     <section class="top-nav">
         <div>
             <li><a href="index.html" ><img src="images/drawfee logo.webp" style="width:7vmin;height:7vmin;"></a></li>
@@ -23,32 +58,64 @@
             <a href="submit.html">Dumb Ideas Here!</a>
         </ul>
       </section>
+    -->
+    header class="nav">
+    
+    <div class="logo">
+        <li><a href="index.html" ><img src="images/drawfee logo.webp" style="width:7vmin;height:7vmin;"></a></li>
+    </div>
+
+        <div class="icon">
+            <div class="hamburger"></div>
+        </div>
+        -
+        <div class="menu-mobile">
+            <a href="about.html">The Creators</a>
+            <a href="videos.html">YouTube Videos</a>
+            <a href="submit.html">Dumb Ideas Here!</a>
+        </div>          
+    </header>
+    <header class="desktop">
+        <div class="menu-desktop">
+            <a href="about.html">The Creators</a>
+            <a href="videos.html">YouTube Videos</a>
+            <a href="submit.html">Dumb Ideas Here!</a>
+        </div>
+    </header>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
     <h2>Drop off at</h2>
     <h1>Drawfee</h1>
     <h3>Give us Your Dumb Ideas so We can Make Dumber Drawings</h3>
 
-    <section class="submit">
-        <div class="form-control">
-            <label for="email">Email</label>
-            <input
-              type="email"
-              id="email"
-              placeholder="What do we call you?"
-              required
-            />
-          </div>
-  
-          <div class="form-control">
-            <label for="message">Message</label>
+    <div class="submit">
+        <!--
+        <div id="logo"&nbsp;>
+           <img class="animate__animated animate__bounce" src="images/drawfee logo.webp" >
+        </div>
+        -->
+
+        <div id="email">
+            
+</div>
+<div id="message">
+            <input type="email" id="email" placeholder="What do we call you?"required />
             <textarea
               id="message"
-              cols="30"
-              rows="10"
+              cols="100vmin"
+              rows="30vmin"
               placeholder="Place dumb idea here!"
               required
             ></textarea>
+            <button>Submit</button>
           </div>
-          <input type="submit" value="Send" class="submit-btn" />
+  
+         
+          
+          
     </section>
 </body>
 </html>
