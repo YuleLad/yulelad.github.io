@@ -169,6 +169,16 @@ footer{
     overflow:hidden;
     
 }
+  }
+@media (max-width: 1000px){
+main {
+  display: flex;
+  max-height: 200px;
+}
+main img{
+  background-position: ;
+}
+
     .menu-button-container {
       display: flex;
     }
@@ -280,12 +290,12 @@ footer{
 
 .menu-mobile {
     background-color: #000000;
-    height: 100vh;
+    height: 10vh;
     position: fixed;
-    width: 100%;
-    z-index: 999;
+    width: 80%;
+    
     padding-top: 150px;
-    font-family: 'Helvetica', sans-serif;
+    
     text-align: center;
 }
 
@@ -297,7 +307,7 @@ footer{
 .menu-mobile a {
     clear: right;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
     height: 70px;
     line-height: 70px;
 }
@@ -327,6 +337,9 @@ footer{
         top: 0;
         right: 0;
     }
+    .logo-desktop{
+      
+    }
 
     .menu-desktop a {
         display: inline-flex;
@@ -343,7 +356,7 @@ footer{
 
     .desktop {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         display: block;
     }
