@@ -6,7 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drawfee Website</title>
     <link rel="stylesheet" href="style.css"/> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <style>
+        .draw{
+    display: grid;
+    align-tracks:flex-end;
+    /*grid-template-columns: 33% 33% 33%;*/
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 4rem;
+    grid-row-gap: 4rem;
+    grid-auto-rows: 200px;
+    background-image: url('Drawfee-homepage-icons 05 Artboard 7');
+}
+main{
+    background-image:url('images/Drawfee-homepage-icons\ 05\ Artboard\ 7.svg');
+            background-size: cover;
+            height:600px;
+            
+}
+div h1{
+font: 20px;
+}
+
         footer{
             
              margin: 3vmin;
@@ -20,18 +41,28 @@
 <body>
     <header>
 >    </header>
-    <!--
-    <header>
-    <h2>Welcome to</h2>
-    <h1>Drawfee</h1>
-    <h3>Where we take your dumb Ideas and make dumber drawings!</h3>
-</header>
--->
+<main class="draw">
+    <div class="fee">
+       <img class="animate__animated animate__bounce" src="images/Drawfee-homepage-icons 01 Artboard 1.svg" style="width:20vmin;height:20vmin;">
+       <a href="about.html">Who are we?</a>
+    </div>
+    <div class="fee">
+       <img class="animate__animated animate__bounce" src="images/Drawfee-homepage-icons 02 Artboard 2.svg" style="width:20vmin;height:20vmin;">
+       <a href="videos.html">What do we do?</a>
+    </div>
+    <div class="fee">
+      <img class="animate__animated animate__bounce" src="images/Drawfee-homepage-icons 03 Artboard 3.svg" style="width:20vmin;height:20vmin;">
+      <a href="submit.html">Dumb Ideas Here!</a>
+    </div>
+    <img src="images/Drawfee-homepage-icons 05 Artboard 7.svg">
+</main>
+   
+
 <article>
-    <a href="about.html">The Creators</a>
-    <a href="videos.html">YouTube Videos</a>
-    <a href="support.html">Store</a>
-    <a href="submit.html">Dumb Ideas Here!</a>
+ 
+    
+    
+    
 </article>
     <footer>
        <p> Content Note: <br>

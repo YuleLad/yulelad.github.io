@@ -279,7 +279,7 @@ footer{
 }
 
 .menu-mobile {
-    background-color: #efefef;
+    background-color: #000000;
     height: 100vh;
     position: fixed;
     width: 100%;
@@ -297,7 +297,7 @@ footer{
 .menu-mobile a {
     clear: right;
     text-decoration: none;
-    color: #333;
+    color: rgb(255, 255, 255);
     height: 70px;
     line-height: 70px;
 }
