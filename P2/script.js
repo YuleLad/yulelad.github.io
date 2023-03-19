@@ -29,4 +29,4 @@ function desktopMenu() {
 //when the page loads call toggleIcon;
 $(toggleIcon);
 $(closeMobileMenu);
-$(desktopMenu);
+//$(desktopMenu);

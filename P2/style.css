@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 
 h1{
     font-family: 'Tilt Warp', cursive;
@@ -10,6 +11,12 @@ h1{
     background-color: rgb(210, 14, 14);
     margin: 0;
     padding: 0;
+}
+h4{
+  font-family: 'Tilt Warp', cursive;
+  font-size:10vmin;
+  
+  color: white;
 }
 h2{
     font-family: 'Gloria Hallelujah', cursive;
@@ -32,9 +39,51 @@ p{
     margin: 0;
     
 }
+.summary p{
+  font-family: 'Source Sans Pro', sans-serif;;
+  font-size: 20px;
+  color: white;
+}
+.desc{
+  display: flex;
+ 
+}
+.info p{
+  font-family: 'Source Sans Pro', sans-serif;;
+  font-size: 20px;
+  color: white;
+}
+.info h1{
+
+  font-size: 24px;
+text-align: left;
+background-color: black;
+
+}
+.info img {
+ 
+  width:70%;
+  display:block;
+  padding-right:0%;
+  margin: 0;
+  
+}
+
+
 body{
     margin: 0;
     background-color: black;
+}
+
+.two-col{
+  display: flex;
+}
+
+.col{
+  float: right;
+  width: 50%;
+  padding: 30px;
+  
 }
 .parent{
     display: grid;
@@ -53,6 +102,10 @@ body{
     background-position:center center;
     height:300px;
 
+}
+textarea{
+  width: 400px;
+  height: 400px;
 }
 
 
@@ -162,8 +215,8 @@ footer{
   }
   
   @media (max-width: 700px) {
-    header {display:flex;max-height:200px;}
-    header img{
+     header {display:flex;max-height:200px;}
+     header img{
 
     text-align:center;
     overflow:hidden;
@@ -290,9 +343,9 @@ main img{
 
 .menu-mobile {
     background-color: #000000;
-    height: 10vh;
+    height: 100vh;
     position: fixed;
-    width: 80%;
+    width: 100%;
     
     padding-top: 150px;
     
@@ -322,8 +375,19 @@ main img{
   }
 
 /* Medium devices (landscape tablets, 768px and up) */
+
+@media screen and (max-width:768px) {
+  .two-col{
+    flex-direction: column;
+  }
+  .desc{
+    flex-direction: column;
+  }
+}
 @media only screen and (min-width: 768px) {
     /* START of desktop menu for 768 media query */
+    
+    
     .menu-desktop {
         width: 100%;
         display: block;
@@ -337,9 +401,7 @@ main img{
         top: 0;
         right: 0;
     }
-    .logo-desktop{
-      
-    }
+    
 
     .menu-desktop a {
         display: inline-flex;
